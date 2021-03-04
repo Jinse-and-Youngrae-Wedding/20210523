@@ -2233,6 +2233,11 @@ select.form-control:focus::-ms-value {
     line-height: 1.5;
 }
 
+.text-gray {
+	color: #88847d;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
 .form-control-plaintext {
     display: block;
     width: 100%;
