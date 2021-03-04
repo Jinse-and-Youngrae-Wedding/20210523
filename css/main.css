@@ -8090,7 +8090,10 @@ button.bg-dark:focus {
     padding: 0.25rem !important;
 }
 
-.pt-1,
+.pt-1 {
+	padding-top: 1rem!important;
+}
+
 .py-1 {
     padding-top: 0.25rem !important;
 }
