@@ -126,6 +126,7 @@ ul ol {
 }
 
 dl {
+  float: left;
   width: 100%;
   overflow: hidden;
   padding: 0;
@@ -2248,6 +2249,12 @@ select.form-control:focus::-ms-value {
 	color: #88847d;
   font-family: 'Nanum Gothic Coding', monospace;
 }
+
+.text-dark-gray {
+	color: #33312e;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
 
 .form-control-plaintext {
     display: block;
