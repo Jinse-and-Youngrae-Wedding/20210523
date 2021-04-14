@@ -140,6 +140,14 @@ dd {
   margin: 0
 }
 
+.dd-1 {
+  float: left;
+  width: 55%;
+  /* adjust the width; make sure the total of both is 100% */
+  padding: 0;
+  margin: 0
+}
+
 blockquote {
     margin: 0 0 1rem;
 }
