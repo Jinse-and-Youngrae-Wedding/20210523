@@ -521,10 +521,10 @@ mark,
 }
 
 .map-icon {
-    width: 60px;
+    width: 50px;
     height: auto;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .figure {
