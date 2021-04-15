@@ -235,6 +235,14 @@
                                 <img alt="google-map" class="map-icon" id="google-map"
                                      src="img/map/google-map.png"/>
                             </a>
+							<a id="navi" href="#" onclick="navi();">
+							  <img alt="kakao-navi" class="map-icon" id="kakao-navi"
+                                     src="img/map/kakao-navi.png"/>
+							</a>
+							<a href="https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xxfc0a7df8e3514cf682f37781793f7ee1&name=아트라움웨딩&lon=128.74824572676707&lat=35.818944080471475">
+                                <img alt="t-map" class="map-icon" id="t-map"
+                                     src="img/map/t-map.png"/>
+                            </a>
                         </div>
 						<!--
                         <div class="col text-center">
@@ -327,7 +335,16 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ac4db19f6730f7484eca1e3377523f2d"></script>
+  <script type="text/javascript">
+  function navi() {
+    Kakao.Navi.start({
+      name: '아트라움웨딩',
+      x: 128.74824572676707,
+      y: 35.818944080471475,
+      coordType: 'wgs84',
+    })
+  }
+  </script>
   <script language="javascript">
      //디데이 종료 일자 설정 
     var countDownDate = new Date("May 23, 2021 12:30:00").getTime(); 
