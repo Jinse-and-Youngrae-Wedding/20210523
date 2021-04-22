@@ -2250,7 +2250,7 @@ select.form-control:focus::-ms-value {
 .text-gray {
 	color: #88847d;
 	font-family: 'Nanum Gothic Coding', monospace;
-	font-size: 1.25em;
+	font-size: 1em;
 }
 
 .text-dark-gray {
