@@ -266,7 +266,8 @@
             </div>
         </div>
         <div class="ww-section" id="gallery">
-            <div class="ww-photo-gallery">
+<!--   
+         <div class="ww-photo-gallery">
                 <div class="container">
                     <h2 class="h1 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">포토 갤러리</h2>
                     <div class="ww-gallery">
@@ -322,12 +323,64 @@
                     </div>
                 </div>
             </div>
+-->
+		<div>
+			<style>
+			.photo_wrapper {
+				width: 33.33%;
+				position: relative;
+			}
+			.photo_video_play_button_wrapper {
+				position: absolute; top:0; width: 100%; height: 100%; text-align: center; vertical-align: center; cursor: pointer;
+			}
+			.photo_image {
+				width: 100%;
+			}
+			</style>
+
+			<div id="photo_list_wrapper">
+				<div class="photo_wrapper" >
+					<img class="photo_image" src="img/pic2.jpg" data-photo_no="1" data-photo_idx="1795164" data-fnm="pic2.jpg" onclick="photo_view(this)" />
+				</div>
+				<div class="photo_wrapper" >
+					<img class="photo_image" src="img/pic3.jpg" data-photo_no="2" data-photo_idx="1795163" data-fnm="pic3.jpg" onclick="photo_view(this)" />
+				</div>
+				<div class="photo_wrapper" >
+					<img class="photo_image" src="img/pic4.jpg" data-photo_no="3" data-photo_idx="1795162" data-fnm="pic4.jpg" onclick="photo_view(this)" />
+				</div>
+				<div class="photo_wrapper" >
+					<img class="photo_image" src="img/pic5.jpg" data-photo_no="3" data-photo_idx="1795162" data-fnm="pic5.jpg" onclick="photo_view(this)" />
+				</div>
+				<div class="photo_wrapper" >
+					<img class="photo_image" src="img/pic6.jpg" data-photo_no="3" data-photo_idx="1795162" data-fnm="pic6.jpg" onclick="photo_view(this)" />
+				</div>
+				<div class="photo_wrapper" >
+					<img class="photo_image" src="img/pic7.jpg" data-photo_no="3" data-photo_idx="1795162" data-fnm="pic7.jpg" onclick="photo_view(this)" />
+				</div>
+				<div class="photo_wrapper" >
+					<img class="photo_image" src="img/pic8.jpg" data-photo_no="3" data-photo_idx="1795162" data-fnm="pic8.jpg" onclick="photo_view(this)" />
+				</div>
+				<div class="photo_wrapper" >
+					<img class="photo_image" src="img/pic9.jpg" data-photo_no="3" data-photo_idx="1795162" data-fnm="pic9.jpg" onclick="photo_view(this)" />
+				</div>
+				<div class="photo_wrapper" >
+					<img class="photo_image" src="img/pic10.jpg" data-photo_no="3" data-photo_idx="1795162" data-fnm="pic10.jpg" onclick="photo_view(this)" />
+				</div>
+			</div>
+
+			<!-- PHOTO 리스트 하단 -->
+			<div id="photo_more_row">
+				<img id="photo_more_img" src="img/fold_arrow_down.png" />
+			</div>
+
+		</div>
+
         </div>
 		<div style="clear:both;height:0px"></div>
 			<center style="margin-bottom:-7vw;position:relative;z-index:1;"><img src="img/thanks.png" style="width:30%"/></center>
 			<div style="font-family: 'Nanum Gothic Coding';position:relative;background:#f7f7f7;border:1px solid #000;width:90%;margin:0 auto;text-align:center;padding-top:50px;padding-bottom:40px;font-size:13px;">
-				우리은행 1002-149-671689 예금주 : 이진세<br />
-				우리은행 1002-123-123456 예금주 : 성영래	
+				하나은행 101-910685-14707 예금주 : 이진세<br />
+				하나은행 253-891183-81807 예금주 : 성영래	
 			</div>
 		<div style="clear:both;height:50px"></div>
 
