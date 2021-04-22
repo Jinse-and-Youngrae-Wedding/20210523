@@ -2249,7 +2249,8 @@ select.form-control:focus::-ms-value {
 
 .text-gray {
 	color: #88847d;
-  font-family: 'Nanum Gothic Coding', monospace;
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size: 1.25em;
 }
 
 .text-dark-gray {
@@ -2257,6 +2258,19 @@ select.form-control:focus::-ms-value {
   font-family: 'Nanum Gothic Coding', monospace;
 }
 
+.categoryheading3 {
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 0;
+  text-align: center;
+  margin: 0px;
+}
 
 .form-control-plaintext {
     display: block;
