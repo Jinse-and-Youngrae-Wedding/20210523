@@ -2260,7 +2260,7 @@ select.form-control:focus::-ms-value {
 .text-dark-gray-lh25 {
 	color: #33312e;
 	font-family: 'Nanum Gothic Coding', monospace;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	line-height: 25px;
 }
 
@@ -2281,7 +2281,7 @@ select.form-control:focus::-ms-value {
 .lefttop {
   display: block;
   width: inherit;
-  margin: 0 5px 0 0;
+  margin: 0 5px 2em 0;
   float: left;
   width: 100%;
   background-color: #FFFFFF;
