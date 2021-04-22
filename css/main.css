@@ -2273,7 +2273,7 @@ select.form-control:focus::-ms-value {
 }
 
 .lefttop {
-  display: inline-block;
+  display: block;
   width: inherit;
   margin: 0 5px 2em 0;
   float: left;
