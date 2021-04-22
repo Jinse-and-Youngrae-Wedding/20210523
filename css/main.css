@@ -2250,7 +2250,7 @@ select.form-control:focus::-ms-value {
 .text-gray {
 	color: #88847d;
 	font-family: 'Nanum Gothic Coding', monospace;
-	font-size: 0.5em;
+	font-size: 0.8rem;
 }
 
 .text-dark-gray {
@@ -2260,6 +2260,7 @@ select.form-control:focus::-ms-value {
 .text-dark-gray-lh25 {
 	color: #33312e;
 	font-family: 'Nanum Gothic Coding', monospace;
+	font-size: 0.8rem;
 	line-height: 25px;
 }
 
