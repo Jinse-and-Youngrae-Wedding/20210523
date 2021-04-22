@@ -2257,6 +2257,11 @@ select.form-control:focus::-ms-value {
 	color: #33312e;
   font-family: 'Nanum Gothic Coding', monospace;
 }
+.text-dark-gray-lh25 {
+	color: #33312e;
+	font-family: 'Nanum Gothic Coding', monospace;
+	line-height: 25px;
+}
 
 .categoryheading3 {
   -moz-border-radius-topleft: 5px;
