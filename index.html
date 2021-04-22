@@ -53,7 +53,7 @@ function show_big_img(current_img_no)
 	if (document.getElementById('slide_show_yn').value == "Y")
 	{		
 		document.getElementById('slide_show_yn').value = "N";
-		document.getElementById('slide_icon').src = "./img/start.JPG";
+		document.getElementById('slide_icon').src = "./img/start_.jpg";
 		clearInterval(slideObj);		
 	}
 	
@@ -106,13 +106,13 @@ function slide_event()
 	if (document.getElementById('slide_show_yn').value == "N")
 	{
 		document.getElementById('slide_show_yn').value = "Y";
-		document.getElementById('slide_icon').src = "./img/stop.JPG";
+		document.getElementById('slide_icon').src = "./img/stop_.jpg";
 		slide_second = eval(document.getElementById('slide_second').value);	
 		slideObj = setInterval("next_img()", slide_second * 1000);
 		
 	} else {
 		document.getElementById('slide_show_yn').value = "N";
-		document.getElementById('slide_icon').src = "./img/start.JPG";
+		document.getElementById('slide_icon').src = "./img/start_.jpg";
 		clearInterval(slideObj);
 		
 	}	
@@ -429,9 +429,9 @@ function set_img(current_img_no)
 				<table width="80%">
 				<tr>
 				<td colspan="4" align="center">(슬라이드 실행간격 : <input name="slide_second" value="3"> 초)<br>
-					<img onClick="javascript:previous_img()"src="img/previous.jpg">
-					<img id="slide_icon" onClick="javascript:slide_event()" src="img/start.jpg">
-					<img onClick="javascript:next_img()" src="img/next.jpg">
+					<img onClick="javascript:previous_img()"src="img/previous_.jpg">
+					<img id="slide_icon" onClick="javascript:slide_event()" src="img/start_.jpg">
+					<img onClick="javascript:next_img()" src="img/next_.jpg">
 				</td>
 				</tr>	
 				<tr>
