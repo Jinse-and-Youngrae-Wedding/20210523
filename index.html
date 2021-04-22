@@ -416,8 +416,7 @@ function initiate_img()
 function show_big_img(current_img_no) 
 {
 	// 슬라이드 보기 진행중인 경우 슬라이드보기를 중지시킨다.
-	if (document.getElementById('slide_show_yn').value == "Y")
-	{		
+	if (document.getElementById('slide_show_yn').value == "Y"){		
 		document.getElementById('slide_show_yn').value = "N";
 		document.getElementById('slide_icon').src = "./img/start_.jpg";
 		clearInterval(slideObj);		
@@ -469,8 +468,7 @@ function previous_img()
 var slideObj;	// 시간지연 처리 
 function slide_event() 
 {
-	if (document.getElementById('slide_show_yn').value == "N")
-	{
+	if (document.getElementById('slide_show_yn').value == "N"){
 		document.getElementById('slide_show_yn').value = "Y";
 		document.getElementById('slide_icon').src = "./img/stop_.jpg";
 		slide_second = eval(document.getElementById('slide_second').value);	
