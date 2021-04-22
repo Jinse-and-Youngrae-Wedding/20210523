@@ -2277,7 +2277,7 @@ select.form-control:focus::-ms-value {
   width: inherit;
   margin: 0 5px 2em 0;
   float: left;
-  width: 160px;
+  width: 100%;
   background-color: #FFFFFF;
   border: 2px solid #ffd4db;
   -moz-border-radius: 10px;
