@@ -2269,7 +2269,20 @@ select.form-control:focus::-ms-value {
   font-weight: 700;
   padding: 8px 0;
   text-align: center;
-  margin: 1px;
+  margin: 0px;
+}
+
+.lefttop {
+  display: inline-block;
+  width: inherit;
+  margin: 0 5px 2em 0;
+  float: left;
+  width: 160px;
+  background-color: #FFFFFF;
+  border: 2px solid #ffd4db;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .form-control-plaintext {
