@@ -387,6 +387,363 @@
     </div>
 </div>
 
+<style>
+#photo_view {
+    /* !! Do not set display none here !! */
+    background-color: white;  /* background-color: #b5b7ba; */
+    padding-bottom: 170px;  /* reply_add_wrapper height is 140px */
+}
+#photo_view_top {
+    background-color: #262b3e;
+    height: 45px;
+    vertical-align: middle;
+    position: relative;
+}
+#photo_view_title {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    height: 45px;
+    line-height: 48px;
+    padding-left: 18px;
+}
+
+#photo_view_top_dummy {
+    height: 45px;
+    display: none;
+}
+
+#photo_view_close_button {
+    cursor: pointer;
+    height: 45px;
+    width: auto;
+    position: absolute; right: 0; top: 0;
+}
+#photo_view_menu_open_button {
+    cursor: pointer;
+    width: auto;
+    height: 100%;
+    position: absolute; right: 0; top: 0;
+}
+
+
+.photo_view_img_wrapper {
+    position: relative;
+}
+.photo_view_img {
+    width: 100%;
+}
+.photo_view_swipe_guide {
+    height: 50px;
+    width: auto;
+    position: absolute;
+    top: 38%;
+    z-index: 99;
+    display: none;
+}
+
+
+
+
+#photo_view_console td {
+    line-height: auto;
+    font-size: 14px;
+}
+
+.swiper-slide {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.photo_view_mid {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    border-bottom: 1px solid #eaeaea;
+    height: 55px;
+    line-height: 55px;
+    position: relative;
+}
+.photo_view_slide_button {
+    height: 19px;
+    position: absolute;
+    top: 17px;
+}
+
+.photo_view_memo {
+    font-size: 12px;
+    padding-top: 20px;
+}
+.photo_reply_counter {
+    line-height: 100%; padding-left: 7px; padding-right: 15px;
+}
+</style>
+
+<div id="photo_view">
+    <div id="photo_view_top">
+        <div id="photo_view_title">PHOTO</div>
+        <img id="photo_view_close_button" src="img/button_x_01_with_bg.png" />
+    </div>
+    <div id="photo_view_top_dummy"></div>
+    <div id="photo_container" class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" data-idx="1795164">
+                <!-- 상단영역 -->
+                                <div style="height: 15px; position: relative;">
+                </div>
+                <!-- photo img -->
+                <div class="photo_view_img_wrapper">
+                        <img src="img/pic2.jpg" data-src_original="img/pic2.jpg" class="photo_view_img" data-photo_idx="1795164" data-photo_no="1" data-is_video='' style="margin-top: 4px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_left.gif" style="left: 0px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_right.gif" style="right: 0px;" />
+                </div>
+                <!-- 중단영역 -->
+                <div class="photo_view_mid">
+                    <img class="photo_view_slide_button" id="photo_view_slide_left_button" src="img/photo_view-button_left.png" style="left: 0; display: none;" />
+                    <table id="photo_view_console" cellspacing="0" cellpadding="0" align="center" height="100%">
+                        <tr>
+                                                    </tr>
+                    </table>
+                    <img class="photo_view_slide_button" id="photo_view_slide_right_button" src="img/photo_view-button_right.png" style="right: 0; " />
+                </div>
+                <div class="photo_view_memo">
+                                    </div>
+                <div style="padding-top: 6px; padding-bottom: 6px;">
+                                                        </div>
+                <div class="reply_list" data-idx="1795164">
+</div>
+
+<div style="clear: both;"></div>
+            </div>
+            <div class="swiper-slide" data-idx="1795163">
+                <!-- 상단영역 -->
+                                <div style="height: 15px; position: relative;">
+                </div>
+                <!-- photo img -->
+                <div class="photo_view_img_wrapper">
+                        <img src="img/pic3.jpg" data-src_original="img/pic3.jpg" class="photo_view_img" data-photo_idx="1795163" data-photo_no="2" data-is_video='' style="margin-top: 4px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_left.gif" style="left: 0px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_right.gif" style="right: 0px;" />
+                </div>
+                <!-- 중단영역 -->
+                <div class="photo_view_mid">
+                    <img class="photo_view_slide_button" id="photo_view_slide_left_button" src="img/photo_view-button_left.png" style="left: 0; " />
+                    <table id="photo_view_console" cellspacing="0" cellpadding="0" align="center" height="100%">
+                        <tr>
+                                                    </tr>
+                    </table>
+                    <img class="photo_view_slide_button" id="photo_view_slide_right_button" src="img/photo_view-button_right.png" style="right: 0; " />
+                </div>
+                <div class="photo_view_memo">
+                                    </div>
+                <div style="padding-top: 6px; padding-bottom: 6px;">
+                                                        </div>
+                <div class="reply_list" data-idx="1795163">
+</div>
+
+<div style="clear: both;"></div>
+            </div>
+            <div class="swiper-slide" data-idx="1795162">
+                <!-- 상단영역 -->
+                                <div style="height: 15px; position: relative;">
+                </div>
+                <!-- photo img -->
+                <div class="photo_view_img_wrapper">
+                        <img src="img/pic4.jpg" data-src_original="img/pic4.jpg" class="photo_view_img" data-photo_idx="1795162" data-photo_no="3" data-is_video='' style="margin-top: 4px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_left.gif" style="left: 0px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_right.gif" style="right: 0px;" />
+                </div>
+                <!-- 중단영역 -->
+                <div class="photo_view_mid">
+                    <img class="photo_view_slide_button" id="photo_view_slide_left_button" src="img/photo_view-button_left.png" style="left: 0; " />
+                    <table id="photo_view_console" cellspacing="0" cellpadding="0" align="center" height="100%">
+                        <tr>
+                                                    </tr>
+                    </table>
+                    <img class="photo_view_slide_button" id="photo_view_slide_right_button" src="img/photo_view-button_right.png" style="right: 0; " />
+                </div>
+                <div class="photo_view_memo">
+                                    </div>
+                <div style="padding-top: 6px; padding-bottom: 6px;">
+                                                        </div>
+                <div class="reply_list" data-idx="1795162">
+</div>
+
+<div style="clear: both;"></div>
+            </div>
+            <div class="swiper-slide" data-idx="1795161">
+                <!-- 상단영역 -->
+                                <div style="height: 15px; position: relative;">
+                </div>
+                <!-- photo img -->
+                <div class="photo_view_img_wrapper">
+                        <img src="img/pic5.jpg" data-src_original="img/pic5.jpg" class="photo_view_img" data-photo_idx="1795161" data-photo_no="3" data-is_video='' style="margin-top: 4px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_left.gif" style="left: 0px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_right.gif" style="right: 0px;" />
+                </div>
+                <!-- 중단영역 -->
+                <div class="photo_view_mid">
+                    <img class="photo_view_slide_button" id="photo_view_slide_left_button" src="img/photo_view-button_left.png" style="left: 0; " />
+                    <table id="photo_view_console" cellspacing="0" cellpadding="0" align="center" height="100%">
+                        <tr>
+                                                    </tr>
+                    </table>
+                    <img class="photo_view_slide_button" id="photo_view_slide_right_button" src="img/photo_view-button_right.png" style="right: 0; " />
+                </div>
+                <div class="photo_view_memo">
+                                    </div>
+                <div style="padding-top: 6px; padding-bottom: 6px;">
+                                                        </div>
+                <div class="reply_list" data-idx="1795161">
+</div>
+
+<div style="clear: both;"></div>
+            </div>
+            <div class="swiper-slide" data-idx="1795160">
+                <!-- 상단영역 -->
+                                <div style="height: 15px; position: relative;">
+                </div>
+                <!-- photo img -->
+                <div class="photo_view_img_wrapper">
+                        <img src="img/pic6.jpg" data-src_original="img/pic6.jpg" class="photo_view_img" data-photo_idx="1795160" data-photo_no="3" data-is_video='' style="margin-top: 4px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_left.gif" style="left: 0px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_right.gif" style="right: 0px;" />
+                </div>
+                <!-- 중단영역 -->
+                <div class="photo_view_mid">
+                    <img class="photo_view_slide_button" id="photo_view_slide_left_button" src="img/photo_view-button_left.png" style="left: 0; " />
+                    <table id="photo_view_console" cellspacing="0" cellpadding="0" align="center" height="100%">
+                        <tr>
+                                                    </tr>
+                    </table>
+                    <img class="photo_view_slide_button" id="photo_view_slide_right_button" src="img/photo_view-button_right.png" style="right: 0; " />
+                </div>
+                <div class="photo_view_memo">
+                                    </div>
+                <div style="padding-top: 6px; padding-bottom: 6px;">
+                                                        </div>
+                <div class="reply_list" data-idx="1795160">
+</div>
+
+<div style="clear: both;"></div>
+            </div>
+            <div class="swiper-slide" data-idx="1795159">
+                <!-- 상단영역 -->
+                                <div style="height: 15px; position: relative;">
+                </div>
+                <!-- photo img -->
+                <div class="photo_view_img_wrapper">
+                        <img src="img/pic7.jpg" data-src_original="img/pic7.jpg" class="photo_view_img" data-photo_idx="1795159" data-photo_no="3" data-is_video='' style="margin-top: 4px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_left.gif" style="left: 0px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_right.gif" style="right: 0px;" />
+                </div>
+                <!-- 중단영역 -->
+                <div class="photo_view_mid">
+                    <img class="photo_view_slide_button" id="photo_view_slide_left_button" src="img/photo_view-button_left.png" style="left: 0; " />
+                    <table id="photo_view_console" cellspacing="0" cellpadding="0" align="center" height="100%">
+                        <tr>
+                                                    </tr>
+                    </table>
+                    <img class="photo_view_slide_button" id="photo_view_slide_right_button" src="img/photo_view-button_right.png" style="right: 0; " />
+                </div>
+                <div class="photo_view_memo">
+                                    </div>
+                <div style="padding-top: 6px; padding-bottom: 6px;">
+                                                        </div>
+                <div class="reply_list" data-idx="1795159">
+</div>
+
+<div style="clear: both;"></div>
+            </div>
+            <div class="swiper-slide" data-idx="1795158">
+                <!-- 상단영역 -->
+                                <div style="height: 15px; position: relative;">
+                </div>
+                <!-- photo img -->
+                <div class="photo_view_img_wrapper">
+                        <img src="img/pic8.jpg" data-src_original="img/pic8.jpg" class="photo_view_img" data-photo_idx="1795158" data-photo_no="3" data-is_video='' style="margin-top: 4px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_left.gif" style="left: 0px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_right.gif" style="right: 0px;" />
+                </div>
+                <!-- 중단영역 -->
+                <div class="photo_view_mid">
+                    <img class="photo_view_slide_button" id="photo_view_slide_left_button" src="img/photo_view-button_left.png" style="left: 0; " />
+                    <table id="photo_view_console" cellspacing="0" cellpadding="0" align="center" height="100%">
+                        <tr>
+                                                    </tr>
+                    </table>
+                    <img class="photo_view_slide_button" id="photo_view_slide_right_button" src="img/photo_view-button_right.png" style="right: 0; " />
+                </div>
+                <div class="photo_view_memo">
+                                    </div>
+                <div style="padding-top: 6px; padding-bottom: 6px;">
+                                                        </div>
+                <div class="reply_list" data-idx="1795158">
+</div>
+
+<div style="clear: both;"></div>
+            </div>
+            <div class="swiper-slide" data-idx="1795157">
+                <!-- 상단영역 -->
+                                <div style="height: 15px; position: relative;">
+                </div>
+                <!-- photo img -->
+                <div class="photo_view_img_wrapper">
+                        <img src="img/pic9.jpg" data-src_original="img/pic9.jpg" class="photo_view_img" data-photo_idx="1795157" data-photo_no="3" data-is_video='' style="margin-top: 4px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_left.gif" style="left: 0px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_right.gif" style="right: 0px;" />
+                </div>
+                <!-- 중단영역 -->
+                <div class="photo_view_mid">
+                    <img class="photo_view_slide_button" id="photo_view_slide_left_button" src="img/photo_view-button_left.png" style="left: 0; " />
+                    <table id="photo_view_console" cellspacing="0" cellpadding="0" align="center" height="100%">
+                        <tr>
+                                                    </tr>
+                    </table>
+                    <img class="photo_view_slide_button" id="photo_view_slide_right_button" src="img/photo_view-button_right.png" style="right: 0; " />
+                </div>
+                <div class="photo_view_memo">
+                                    </div>
+                <div style="padding-top: 6px; padding-bottom: 6px;">
+                                                        </div>
+                <div class="reply_list" data-idx="1795157">
+</div>
+
+<div style="clear: both;"></div>
+            </div>
+            <div class="swiper-slide" data-idx="1795156">
+                <!-- 상단영역 -->
+                                <div style="height: 15px; position: relative;">
+                </div>
+                <!-- photo img -->
+                <div class="photo_view_img_wrapper">
+                        <img src="img/pic10.jpg" data-src_original="img/pic10.jpg" class="photo_view_img" data-photo_idx="1795156" data-photo_no="3" data-is_video='' style="margin-top: 4px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_left.gif" style="left: 0px;" />
+                    <img class="photo_view_swipe_guide" src="img/arrow_ani_01_right.gif" style="right: 0px;" />
+                </div>
+                <!-- 중단영역 -->
+                <div class="photo_view_mid">
+                    <img class="photo_view_slide_button" id="photo_view_slide_left_button" src="img/photo_view-button_left.png" style="left: 0; " />
+                    <table id="photo_view_console" cellspacing="0" cellpadding="0" align="center" height="100%">
+                        <tr>
+                                                    </tr>
+                    </table>
+                    <img class="photo_view_slide_button" id="photo_view_slide_right_button" src="img/photo_view-button_right.png" style="right: 0; " />
+                </div>
+                <div class="photo_view_memo">
+                                    </div>
+                <div style="padding-top: 6px; padding-bottom: 6px;">
+                                                        </div>
+                <div class="reply_list" data-idx="1795156">
+</div>
+
+<div style="clear: both;"></div>
+            </div>
+                </div><!-- swiper-wrapper end -->
+    </div>
+</div>
+
+
+
  <footer class="pt-5 pb-5 bg-dark">
     <div class="container">
       <div class="text-center">
