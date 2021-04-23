@@ -326,7 +326,7 @@
                 </div>
 -->
 				<div>
-					<input name="current_img_no" id="current_img_no" type="text" value="1" />
+					<input name="current_img_no" id="current_img_no" type="hidden" value="" />
 					<img src="img/pic2.jpg" alt="큰 이미지" width="664" id="bigimg"/>
 				</div>
 
@@ -382,7 +382,7 @@
 	function set_img(current_img_no){
 	 // 작은 이미지의 총 갯수 초기화
 	 document.getElementById('current_img_no').value = current_img_no; 
-	 document.getElementById('bigimg').src = "./img/" + "b_" + current_img_no + ".JPG"; 
+	 document.getElementById('bigimg').src = "./img/" + "pic" + current_img_no + ".JPG"; 
 	}
 
 
