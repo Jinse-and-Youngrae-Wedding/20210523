@@ -31,7 +31,7 @@
 
 </head>
 
-<body onload="initiate_img()">
+<body>
 
   <!-- Header - set the background image for the header in the line below -->
   <header></header>
@@ -326,12 +326,15 @@
                 </div>
 -->
 				<div>
+					<input name="current_img_no" value="" type="hidden">
 					<img src="img/pic2.jpg" alt="큰 이미지" width="664" id="bigimg"/>
 				</div>
 
 				<div>
 					<ul>
-					<li><img src="s_pic1.jpg" width="83" alt="작은 이미지" onclick="img1();" style="cursor:pointer;"/></li>
+					<li><img src="img/s_pic1.jpg" width="83" alt="작은 이미지" onclick="set_img(2);" style="cursor:pointer;"/></li>
+					<li><img src="img/s_pic2.jpg" width="83" alt="작은 이미지" onclick="set_img(3);" style="cursor:pointer;"/></li>		
+					<li><img src="img/s_pic3.jpg" width="83" alt="작은 이미지" onclick="set_img(4);" style="cursor:pointer;"/></li>
 					</ul>
 				</div>
 <!--############################################## 포토갤러리 끝 ################################################################### -->
@@ -376,9 +379,13 @@
     })
   }
 
-	function img1()	{
-		document.getElementById("bigimg").src = "img/pic2.jpg";
+	function set_img(current_img_no){
+	 // 작은 이미지의 총 갯수 초기화
+	 document.getElementById('current_img_no').value = current_img_no; 
+	 document.getElementById('b_img').src = "./img/" + "b_" + current_img_no + ".JPG"; 
 	}
+
+
   </script>
   <script language="javascript">
      //디데이 종료 일자 설정 
