@@ -2291,6 +2291,24 @@ select.form-control:focus::-ms-value {
   border-radius: 10px;
 }
 
+.my-gallery {
+ width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0; /* 이미지 간격 */
+  width: 170px; /* 썸네일 이미지 넓이지정 */
+}
+.my-gallery figcaption {
+ display: none;
+}
+
 .form-control-plaintext {
     display: block;
     width: 100%;
