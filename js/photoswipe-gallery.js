@@ -133,7 +133,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     };
 
     var openPhotoSwipe = function(index, galleryElement, disableAnimation) {
-        var pswpElement = document.querySelectorAll('.pswp')[0],
+        var pswpElement = document.querySelectorAll('pswp')[0],
             gallery,
             options,
             items;
@@ -183,4 +183,4 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 };
 
 // execute above function
-initPhotoSwipeFromDOM('.my-gallery');
+initPhotoSwipeFromDOM('my-gallery');
