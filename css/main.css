@@ -2291,9 +2291,9 @@ select.form-control:focus::-ms-value {
   border-radius: 10px;
 }
 
-.my-gallery {
- width: 100%;
-  float: left;
+.demo-gallery {
+width: 100%;
+  text-align: center;
 }
 .my-gallery img {
   width: 100%;
