@@ -2256,6 +2256,13 @@ select.form-control:focus::-ms-value {
 .text-dark-gray {
 	color: #33312e;
   font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 1rem;
+}
+
+.text-dark-gray-sm {
+	color: #33312e;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 0.9rem;
 }
 
 .text-dark {
