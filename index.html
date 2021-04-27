@@ -88,7 +88,7 @@
 									</a>
 								</div>
 								<br/>
-								<h4 class="h5 ww-title" style="font-family: 'Noto Serif KR', serif; font-size: 2rem; font-weight: 400;">초대합니다</h4>
+								<h4 class="h5 ww-title" style="font-family: 'Noto Serif KR', serif; font-size: 1.75rem; font-weight: 400;">초대합니다</h4>
 								<hr/>
 								
 								<!--
@@ -853,10 +853,10 @@
 			<center style="margin-bottom:-7vw;position:relative;z-index:1;"><img src="img/thanks.png" style="width:30%"/></center>
 			<div style="font-family: 'Nanum Gothic Coding';position:relative;background:#f7f7f7;border:1px solid #000;width:90%;margin:0 auto;text-align:center;padding-top:50px;padding-bottom:40px;font-size:13px;">
 				- 신랑측 - <br />
-				<p id="acc1">하나은행 101-910685-14707 예금주 : 이진세</p><br />
+				<p id="acc1">하나은행 101-910685-14707 예금주 : 이진세</p>&emsp;<button onclick="copyToClipboard('acc1')">[복사]</button>
 				<br />
 				- 신부측 - <br />
-				하나은행 253-891183-81807 예금주 : 성영래	
+				<p id="acc2">하나은행 253-891183-81807 예금주 : 성영래</p>&emsp;<button onclick="copyToClipboard('acc1')">[복사]</button>
 			</div>
 		<div style="clear:both;height:50px"></div>
 
@@ -912,7 +912,23 @@
         $('html,body').animate({scrollTop: 0}, 400);
         return false;
     });
+	
+	// 클립보드로 복사하는 기능을 생성
+	function copyToClipboard(elementId) {
+	  // 글을 쓸 수 있는 란을 만든다.
+	  var aux = document.createElement("input");
+	  // 지정된 요소의 값을 할당 한다.
+	  aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+	  // bdy에 추가한다.
+	  document.body.appendChild(aux);
+	  // 지정된 내용을 강조한다.
+	  aux.select();
+	  // 텍스트를 카피 하는 변수를 생성
+	  document.execCommand("copy");
+	  // body 로 부터 다시 반환 한다.
+	  document.body.removeChild(aux);
 
+	}
 
   </script>
   <script language="javascript">
