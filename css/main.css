@@ -2259,8 +2259,8 @@ select.form-control:focus::-ms-value {
 }
 .text-dark-gray-lh25 {
 	color: #33312e;
-	font-family: 'Nanum Gothic Coding', monospace;
-	font-size: 0.9rem;
+	font-family: 'Nanum Myeongjo', monospace;
+	font-size: 1.25rem;
 	line-height: 25px;
 }
 
