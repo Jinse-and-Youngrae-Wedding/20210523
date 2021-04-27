@@ -897,6 +897,11 @@
 	 document.getElementById('current_img_no').value = current_img_no; 
 	 document.getElementById('bigimg').src = "./img/" + "pic" + current_img_no + ".jpg"; 
 	}
+	
+	 $('#go-to-top').click(function () {
+        $('html,body').animate({scrollTop: 0}, 400);
+        return false;
+    });
 
 
   </script>
