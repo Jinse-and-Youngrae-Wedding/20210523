@@ -2257,10 +2257,16 @@ select.form-control:focus::-ms-value {
 	color: #33312e;
   font-family: 'Nanum Gothic Coding', monospace;
 }
+
+.text-dark {
+    color: #343a40 !important;
+	font-size: 1rem;
+}
+
 .text-dark-gray-lh25 {
 	color: #33312e;
 	font-family: 'Nanum Myeongjo', monospace;
-	font-size: 1.1rem;
+	font-size: 0.9rem;
 	line-height: 25px;
 }
 
@@ -9738,10 +9744,6 @@ a.text-danger:hover, a.text-danger:focus {
 
 a.text-light:hover, a.text-light:focus {
     color: #dae0e5 !important;
-}
-
-.text-dark {
-    color: #343a40 !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
