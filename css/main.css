@@ -33,6 +33,10 @@
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	--button-color: #ffffff;
+	--button-bg-color: #8a8383;
+	--button-hover-bg-color: #6b6868;
+
 }
 
 *,
@@ -253,8 +257,8 @@ button {
 	-moz-appearance: none;
 	appearance: none;
 	
-	background: var(#8a8383);
-	color: var(#6b6868);
+	background: var(--button-bg-color);
+	color: var(--button-color);
 	
 	margin: 0;
 	padding: 0.5rem 1rem;
@@ -278,9 +282,11 @@ button {
 	transition: 0.5s;
 }
 
+button:active,
+button:hover,
 button:focus {
-    outline: 1px dotted;
-    outline: 5px auto -webkit-focus-ring-color;
+  background: var(--button-hover-bg-color);
+  outline: 0;
 }
 
 input,
